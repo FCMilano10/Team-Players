@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.players-list {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.players-list li {
+    padding: 8px;
+    margin: 5px 0;
+    background: #e0e0e0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin: 0 auto 5px;
+}
+
+.jersey {
+    font-weight: bold;
+    color: blue;
+}
+
+.red-card {
+    color: red;
+    font-weight: bold;
+}
+
+.yellow-card {
+    color: orange;
+    font-weight: bold;
+}
